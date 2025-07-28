@@ -1,0 +1,62 @@
+.animatePopup {
+    animation-name: zoom;
+    animation-duration: 700ms;
+    animation-timing-function: ease-in-out;
+    transform-origin: center;
+}
+
+@keyframes zoom {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes tremer {
+    0%{
+        transform: translateX(1%);
+    }
+    50%{
+        transform: translateX(-1%);
+    }
+    100%{
+        transform: translateX(1%);
+    }
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0%);
+    }
+    33.33% {
+        transform: translateY(10%);
+    }
+    66.66% {
+        transform: translateY(-10%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+@keyframes hard {
+    0% {
+        transform: translateY(0%);
+    }
+    16.66% {
+        transform: translateY(4%);
+        transform: translateX(1%);
+    }
+    33.32% {
+        transform: translateX(-2%);
+    }
+    49.98%{
+        transform: translateY(-4%);
+    }
+    66.64%{
+        transform: translateX(-1%);
+    }
+    83.3%{
+        transform: translateX(0%);
+    }   
+    100% {
+        transform: translateY(0%);
+    }
+}

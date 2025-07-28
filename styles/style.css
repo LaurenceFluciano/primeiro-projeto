@@ -1,0 +1,119 @@
+.Aling_text_to_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.Body_Game {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+}
+.Menu_Game{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(24, 24, 24);
+    transition: opacity 800;
+}
+.title_section {
+    display: flex;
+    width: 100%;
+    height: 23%;
+}
+.Menu_section_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Menu_game_mode {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.viewport_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup {
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    width: 30%;
+    height: 50%;
+    padding: 0.5%;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 8px 12px rgba(170, 170, 170, 0.479);
+}
+
+.dash {
+    position: absolute;
+    left: 7%;
+    width: 80%;
+    border: solid 0.2px black;
+    margin-top: 1%;
+}
+
+.mode_option {
+    height: 80%;
+    width: 90%;
+}
+
+.msg_explain {
+    margin-top: 5%;
+    font-size: 1rem;
+}
+.achievement_style{
+    list-style-type:circle;
+    text-align: start;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    margin-right: 1%;
+}
+.list_achievement_style{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    height: 80%;
+}
+.width_Menu_Game{
+    width: 80vw;
+}
+.footer_confings{
+    margin-top: 2%;
+    width: 50%;
+    height: 12%;
+    display: flex;
+    margin-bottom: 2%;
+}
+.gold {
+    background-color: rgb(255, 220, 19);
+    box-shadow: 0px 0px 10px gold;
+}
+.small_overflow_confing{
+    overflow-y: scroll;
+}
